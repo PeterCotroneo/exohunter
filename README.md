@@ -10,7 +10,7 @@ It is a re-detection and triage tool, not a discovery tool. It re-finds known
 planets around bright, well-observed stars; it does not find new ones. The bright
 stars it works on have already been searched by the mission pipelines (NASA's
 SPOC and MIT's QLP), and on the faint stars those pipelines skip, exohunter does
-not work (numbers below). So its honest uses are learning how transit detection
+not work (numbers below). So its uses are learning how transit detection
 works, independently checking a specific star or candidate, and triaging bright
 targets, not discovery.
 
@@ -40,7 +40,7 @@ whether a transit recurs across multiple sectors.
 
 What it is not: it is not novel science, it does not confirm planets (that needs
 pixel-level analysis and telescope follow-up), and it does not work on faint or
-previously un-searched stars. It is a working, honestly-benchmarked implementation
+previously un-searched stars. It is a working, benchmarked implementation
 of standard transit-detection methods, with its limits measured and stated.
 
 ## Install
@@ -162,7 +162,7 @@ Note: the faint false-positive rejection is an artefact, not a strength. exohunt
 detects almost nothing on faint stars, so it trivially "rejects" false positives
 by returning `NO_SIGNAL`.
 
-**Honest caveats:**
+**Caveats:**
 
 - The TOI and KOI sets are adversarial. They are pre-selected transit-shaped
   signals, many of which required telescope follow-up to classify. The
