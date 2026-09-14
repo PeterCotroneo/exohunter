@@ -1,0 +1,7 @@
+lightkurve
+astroquery
+numpy
+matplotlib
+certifi
+# optional, only for the Transit Least Squares search and thorough benchmark mode:
+# transitleastsquares
